@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Product List</title>
+<style>
+body {
+ 
+font-family: Arial, sans-serif;
+}
+
+.product-container { display: flex;
+flex-wrap: wrap;
+justify-content: space-around; margin: 20px;
+}
+.product-card {
+border: 1px solid #ccc; border-radius: 10px; width: 250px;
+margin: 20px; padding: 15px;
+text-align: center;
+box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); transition: transform 0.2s;
+}
+.product-card:hover { transform: scale(1.05);
+}
+.product-title { font-size: 18px;
+font-weight: bold; margin: 10px 0;
+}
+ 
+.product-price { color: green; font-size: 16px;
+margin-bottom: 10px;
+
+}
+.product-link {
+text-decoration: none; color: #007bff;
+}
+.product-link:hover {
+text-decoration: underline;
+
+}
+</style>
+</head>
+<body>
+
+
+<h1 style="text-align: center;">Product List</h1>
+
+
+<div class="product-container">
+<!-- Product 1 -->
+<div class="product-card">
+<div class="product-title">Product Name 1</div>
+<div class="product-price">$100</div>
+<a href="http://localhost:8000/page2.html/product1" class="product- link">View Product</a>
+</div>
+ 
+<!-- Product 2 -->
+<div class="product-card">
+<div class="product-title">Product Name 2</div>
+<div class="product-price">$150</div>
+<a href="https://example.com/product2" class="product-link">View Product</a>
+</div>
+
+
+<!-- Product 3 -->
+<div class="product-card">
+<div class="product-title">Product Name 3</div>
+<div class="product-price">$200</div>
+<a href="https://example.com/product3" class="product-link">View Product</a>
+</div>
+</div>
+
+
+</body>
+</html>
+
