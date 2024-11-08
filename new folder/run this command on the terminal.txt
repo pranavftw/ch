@@ -1,0 +1,7 @@
+//run this command on the terminal 
+
+# For Python 3.x
+python -m http.server 8000
+
+
+//check the url in html page of ur desktop and code
